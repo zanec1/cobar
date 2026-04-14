@@ -1,5 +1,7 @@
 {
 	"reload_style_on_change": true,
+	"position": "bottom",
+
 	"include": [
 		"~/.config/waybar/modules/*.jsonc"
 	],
@@ -9,11 +11,12 @@
 		"hyprland/window"
 	],
 	"modules-center": [
+		"group/launchers"
 	],
 	"modules-right": [
 		"tray",
-		"cpu",
-		"memory",
+		// "cpu",
+		// "memory",
 		"network",
 		"pulseaudio",
 		"backlight",

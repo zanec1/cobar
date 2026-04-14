@@ -19,6 +19,17 @@
 	color: #888888;
 }
 
+#custom-terminal,
+#custom-discord,
+#custom-neovim,
+#custom-blueman,
+#custom-vpn,
+#custom-steam,
+#custom-chromium {
+	padding: 0 4px;
+	font-size: 22px;
+}
+
 #workspaces button.empty {
 	color: #555555;
 }

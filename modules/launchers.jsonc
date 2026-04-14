@@ -1,0 +1,58 @@
+{
+	"group/launchers": {
+		"orientation": "horizontal",
+		"modules": [
+			"custom/chromium",
+			"custom/terminal",
+			"custom/discord",
+			"custom/steam",
+			"custom/vpn",
+			"custom/blueman",
+			"custom/neovim"
+		]
+	},
+
+	"custom/chromium": {
+		"format": "",
+		"on-click": "chromium",
+		"tooltip": false
+	},
+
+	"custom/terminal": {
+		"format": "",
+		"on-click": "foot",
+		"tooltip": false
+	},
+
+	"custom/discord": {
+		"format": "",
+		"on-click": "discord",
+		"tooltip": false
+	},
+
+	
+	"custom/vpn": {
+		"format": "",
+		"on-click": "",
+		"tooltip": false
+	},
+
+	"custom/steam": {
+		"format": "",
+		"on-click": "steam",
+		"tooltip": false
+	},
+
+	"custom/neovim": {
+		"format": "",
+		"on-click": "foot -e nvim",
+		"tooltip": false
+	},
+
+	"custom/blueman": {
+		"format": "",
+		"on-click": "blueman-manager",
+		"tooltip": false
+	}
+
+}
