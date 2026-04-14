@@ -1,0 +1,28 @@
+* {
+	font-family: NotoSans Nerd Font Propo;
+	font-size: 15px;
+}
+
+#waybar {
+	background: #000000;
+	color: #ffffff;
+}
+
+.module {
+	padding: 4px;
+	border-radius: 8px;
+}
+
+#workspaces button {
+	all: initial;
+	padding: 0 4px;
+	color: #888888;
+}
+
+#workspaces button.empty {
+	color: #555555;
+}
+
+#workspaces button.active {
+	color: #ffffff;
+}
