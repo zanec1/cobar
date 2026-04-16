@@ -6,7 +6,7 @@
 		// "family":
 		"format": "󰤨",
 		"format-ethernet": "󰈀",
-		"format-wifi": "{icon} {essid}",
+		"format-wifi": "{icon}",
 		// "format-linked":
 		"format-disconnected": "󰤯",
 		"format-disabled": "󰤮",

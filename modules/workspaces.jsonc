@@ -5,8 +5,8 @@
 		// "all-outputs":
 		"format": "{icon}",
 		"format-icons": {
-			"active": "",
-			"default": ""
+			"active": "",
+			"default": ""
 		},
 		"persistent-workspaces": {
 			"*": 5
