@@ -1,10 +1,11 @@
 {
 	"pulseaudio": {
 		"format": "{icon}",
+        
 		"format-muted": "{icon}",
 
 		"format-icons": {
-			"default": [ "󰕿", "󰖀", "󰕾" ],
+			"default": [ "", "", "" ],
 			"default-muted": "󰝟",
 			"headphone": "󰋋",
 			"headphone-muted": "󰟎",

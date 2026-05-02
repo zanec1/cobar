@@ -1,15 +1,17 @@
 * {
-	font-family: NotoSans Nerd Font Propo;
-	font-size: 15px;
+	font-family: JetBrainsMono Nerd Font Propo;
+	font-size: 14px;
+    font-weight: 600;
 }
 
 #waybar {
-	background: #000000;
+	background: black;
 	color: #ffffff;
 }
 
 .module {
-	padding: 0px 6px;
+    border-radius: 12px;
+	padding: 0px 12px;
 }
 
 #workspaces button {
@@ -19,28 +21,20 @@
 	color: #888888;
 }
 
-/* #custom-terminal, */
-/* #custom-discord, */
-/* #custom-neovim, */
-/* #custom-blueman, */
-/* #custom-vpn, */
-/* #custom-steam, */
-/* #custom-chromium { */
-/* 	padding: 0 4px; */
-/* 	font-size: 22px; */
-/* } */
-
 #workspaces button.empty {
 	color: #555555;
 }
 
-#workspaces button.active {
+#workspaces button.focused {
 	color: #ffffff;
 }
 
 #tray {
-	margin-right: 4px;
-	padding: 0 8px;
-	background: #222222;
+	padding: 0 12px;
+}
+
+#window {
+    color: #999999;
+    font-style: italic;
 }
 

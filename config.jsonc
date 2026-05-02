@@ -1,24 +1,23 @@
 {
 	"reload_style_on_change": true,
-	"position": "top",
+	"position": "bottom",
 	"include": [
 		"~/.config/waybar/modules/*.jsonc"
 	],
 
 	"modules-left": [
-		"hyprland/workspaces"
+		"sway/workspaces",
+		"sway/mode",
+        "sway/window"
 	],
 	"modules-center": [
-		"clock"
 	],
 	"modules-right": [
 		"tray",
-		"cpu",
-		"memory",
 		"network",
 		"pulseaudio",
 		"backlight",
-		"power-profiles-daemon",
-		"battery"
+		"battery",
+		"clock"
 	]
 }

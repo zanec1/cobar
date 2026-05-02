@@ -1,15 +1,18 @@
 {
-	"hyprland/workspaces": {
+	"sway/workspaces": {
 		// "active-only":
 		// "hide-active":
 		// "all-outputs":
-		"format": "{icon}",
+		"format": "{}",
 		"format-icons": {
-			"active": "",
-			"default": ""
+			"focused": "",
 		},
 		"persistent-workspaces": {
-			"*": 5
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
 		},
 
 		"on-scroll-up": "hyprctl dispatch workspace +1",
