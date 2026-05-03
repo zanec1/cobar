@@ -1,11 +1,12 @@
 {
 	"sway/window": {
-		"format": "{}",
+		"format": "  {}",
 		// "separate-outputs":
 		// "icon":
 		// "icon-size":
 		// "min-length":
-		"max-length": 50,
+		"max-length": 60,
+
 		// "tooltip":
 		"swap-icon-label": false
 		// "expand":

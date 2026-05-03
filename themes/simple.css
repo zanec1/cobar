@@ -1,40 +1,67 @@
 * {
-	font-family: JetBrainsMono Nerd Font Propo;
+	font-family: NotoSans Nerd Font Propo;
 	font-size: 14px;
-    font-weight: 600;
 }
 
 #waybar {
-	background: black;
+	background: rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0 0.5px rgba(255, 255, 255, 0.5);
 	color: #ffffff;
 }
 
 .module {
     border-radius: 12px;
-	padding: 0px 12px;
+	font-size: 16px;
+	padding: 0 8px;
 }
 
 #workspaces button {
 	all: initial;
-	padding: 0 4px;
+	padding: 0 2px;
 	min-width: 16px;
-	color: #888888;
+	color: white;
+    background: rgba(150, 150, 150, 0.2);
+    margin: 8px 1px;
+	min-width: 25px;
 }
 
 #workspaces button.empty {
-	color: #555555;
+	color: #888888;
+    background: rgba(120, 120, 120, 0.2);
+	min-width: 16px;
 }
 
 #workspaces button.focused {
-	color: #ffffff;
+	min-width: 45px;
+	color: black;
+    background: #888888;
 }
 
 #tray {
-	padding: 0 12px;
+	padding: 0 6px;
 }
+/**/
+/* #battery { */
+/*     margin-right: 8px; */
+/* } */
 
 #window {
     color: #999999;
     font-style: italic;
 }
 
+#clock {
+    padding-right: 12px;
+	font-size: 12px;
+}
+
+#custom-logo {
+    font-size: 28px;
+    padding: 0px 2px;
+    margin-left: 12px;
+    color: black;
+    color: #D70A53;
+
+
+
+}

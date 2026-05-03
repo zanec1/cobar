@@ -6,7 +6,7 @@
 
 		"format-icons": {
 			"default": [ "", "", "" ],
-			"default-muted": "󰝟",
+			"default-muted": "",
 			"headphone": "󰋋",
 			"headphone-muted": "󰟎",
 			"headset": "󰋎",

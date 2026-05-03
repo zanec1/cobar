@@ -1,5 +1,6 @@
 {
 	"clock": {
-		"format": " {:%I:%M %p\n%m/%d/%Y}"
+		"format": "{:%I:%M %p\n%m/%d/%Y}",
+        // "justify": "center"
 	}
 }

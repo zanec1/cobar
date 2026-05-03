@@ -5,7 +5,7 @@
 		// "all-outputs":
 		"format": "{}",
 		"format-icons": {
-			"focused": "",
+			// "focused": "",
 		},
 		"persistent-workspaces": {
 			"1": [],
